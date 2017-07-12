@@ -7,12 +7,12 @@ description: "每个胜利背后都有许多尝试"
 keyword: "WJ, WJ Blog, 王杰的博客, hunterjerry, 王杰, java,server"
 url: "http://hunterjerry.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/hunterjerry/hunterjerry.github.io.git" # you code repository
+ #github_repo: "https://github.com/hunterjerry/hunterjerry.github.io.git" you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: img/avatar-by.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/IMG_7432.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
