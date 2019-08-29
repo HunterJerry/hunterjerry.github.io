@@ -1,0 +1,28 @@
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+<script type="text/javascript" src="/assets/js/md5.min.js"></script>
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+
+        // gitalk的主要参数
+        clientID: '04caf9d3b849a4b99e75',
+        clientSecret: 'fbafb8569ebff6ac24e791dc0b87ed667e80829f',
+        repo: 'blogtalk',
+        owner: 'HunterJerry',
+        admin: ['HunterJerry'],
+        id: location.href,
+        /*id: md5(location.pathname),*/
+        enableHotKey: true,
+        flipMoveOptions: {
+            staggerDelayBy: 150,
+            appearAnimation: 'accordionVertical',
+            enterAnimation: 'fade',
+            leaveAnimation: 'fade',
+        },
+
+    });
+    gitalk.render('gitalk-container');
+</script>
+<!-- Gitalk end -->
