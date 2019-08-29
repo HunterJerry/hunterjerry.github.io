@@ -16,7 +16,7 @@ tags:
 > 快速构建业务sql 提高开发效率
 > 首先需要引入tk.mybatis包
 
-![包](img/tk-mybatisPic.png)
+![jar包](https://github.com/HunterJerry/hunterjerry.github.io/blob/master/img/tk-mybatisPic.png)
 
 ```
 import tk.mybatis.mapper.common.Mapper;
@@ -27,7 +27,7 @@ public interface MyMapper<T> extends Mapper<T>, MySqlMapper<T> {
 
 ```
 
-`Bean`头信息要标注出对应库的表名
+``Bean``头信息要标注出对应库的表名
 
 ```
 @Data
@@ -36,7 +36,7 @@ public class User  implements Serializable {
 }
 ```
 
-###### 自己编写的MyMapper接口继承tk包下的Mapper和MysqlMapper
+##### 自己编写的MyMapper接口继承tk包下的Mapper和MysqlMapper
 
 tkmybatis工具是一个方便开发人员 ，提高开发效率的插件：
 
@@ -85,6 +85,6 @@ returnnewCampaignListResp(userMapper.selectByExample(weekend));
 这样对于数据库字段的变更我们只需要维护映射`Bean`就OK了！
 
 ##注意：
-<font color=red>`Weekend支持java8新语法可以使用::直接引用，但只有高一些的版本支持，3.5+从哪个版本开始支持的暂不知`</font>
+`Weekend支持java8新语法可以使用::直接引用，但只有高一些的版本支持，3.5+从哪个版本开始支持的暂不知`
 
 
