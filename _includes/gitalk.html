@@ -13,14 +13,6 @@
         owner: 'HunterJerry',
         admin: ['HunterJerry'],
         id: hex_md5(location.pathname),
-        enableHotKey: true,
-        flipMoveOptions: {
-            staggerDelayBy: 150,
-            appearAnimation: 'accordionVertical',
-            enterAnimation: 'fade',
-            leaveAnimation: 'fade',
-        },
-
     });
     console.log("md5码："+hex_md5(location.pathname));
     gitalk.render('gitalk-container');
