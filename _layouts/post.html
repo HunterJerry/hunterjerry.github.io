@@ -61,6 +61,7 @@ layout: default
 				{{ content }}
 
                 <hr style="visibility: hidden;">
+                <div>{% include new-old.html %}</div>
 
                 <ul class="pager">
                     {% if page.previous.url %}
@@ -80,6 +81,7 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
+
                 <div>{% include gitalk.html %}</div>
             </div>
 
