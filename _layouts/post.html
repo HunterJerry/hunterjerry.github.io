@@ -109,26 +109,7 @@ layout: default
                     {% endif %}
                 </ul>
 
-
-                {% if site.duoshuo_username %}
-                <!-- 多说评论框 start -->
-                <div class="comment">
-                    <div class="ds-thread"
-                        data-thread-key="{{page.id}}"
-                        data-title="{{page.title}}"
-                        data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
-                    </div>
-                </div>
-                <!-- 多说评论框 end -->
-                {% endif %}
-
-                {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
-                <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread"></div>
-                </div>
-                <!-- disqus 评论框 end -->
-                {% endif %}
+                <div>{% include gitalk.html %}</div>
 
             </div>
 
@@ -186,7 +167,7 @@ layout: default
         </div>
     </div>
 </article>
-<div class="container">{% include gitalk.html %}</div>
+<!--<div class="container">{% include gitalk.html %}</div>-->
 
 <!--{% if site.duoshuo_username %}
 &lt;!&ndash; 多说公共JS代码 start (一个网页只需插入一次) &ndash;&gt;
