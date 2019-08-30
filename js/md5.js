@@ -254,3 +254,19 @@ function binl2b64(binarray)
     }
     return str;
 }
+
+/*
+
+var result = hex_md5(param);
+
+param为要加密的值
+
+result为加密后的值
+
+在线加密解密(采用[Crypto-JS](http://www.oschina.net/p/crypto-js)实现)
+
+[http://tool.oschina.net/encrypt?type=2](http://tool.oschina.net/encrypt?type=2)
+
+md5 在线加密解密
+
+    [http://www.cmd5.com/](http://www.cmd5.com/)*/
