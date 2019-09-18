@@ -16,7 +16,7 @@ tags:
 > 快速构建业务sql 提高开发效率
 > 首先需要引入tk.mybatis包
 
-![jar包](https://github.com/HunterJerry/hunterjerry.github.io/blob/master/img/tk-mybatisPic.png)
+![jar包](https://github.com/HunterJerry/hunterjerry.github.io/blob/master/img/tk-mybatisPic.png "jar")
 
 ```
 import tk.mybatis.mapper.common.Mapper;
@@ -53,7 +53,7 @@ Example和Weekend
 
 代码如下：
 
-```java
+```
 
 PageHelper.startPage(req.getPageNo(),req.getPageSize());
 
